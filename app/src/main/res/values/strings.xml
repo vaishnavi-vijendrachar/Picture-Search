@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test WZ</string>
+    <string name="photos_by_pexels">Photos by ​Pexels.com</string>
+    <string name="query_hint">Search Images</string>
+    <string name="photography_title">Photography</string>
+    <string name="photographer_vale">Photographer</string>
+    <string name="no_network_message">Network Not Available!</string>
+    <string name="loading">Loading...</string>
+</resources>

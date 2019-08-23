@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_linear"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="@dimen/view_padding"
+            android:id="@+id/link"
+            android:text="@string/photos_by_pexels"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_weight="2"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:autoLink="web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.SearchView
+            android:layout_margin="@dimen/layout_margin"
+            android:elevation="2dp"
+            app:queryHint="@string/query_hint"
+            android:id="@+id/search"
+            android:background="@color/bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.SearchView>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
