@@ -3,9 +3,9 @@ Implements Recyclerview to display images and scroll through them
 
 1. Architecture : MVVM
 -Mades code more granular, hence makes it easy to test
--Clear segregation of durig
+-Clear segregation of duties
 -Easy to maintain code and scalable
-2. Network Library : Retrofit 2
+2. Network Library : Retrofit2
 -Type safe Http client for android that retrieves JSON using REST WebsService
 -Easy to consume JSON
 -Serialises JSON into POJO
